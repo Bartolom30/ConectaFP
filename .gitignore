@@ -1,0 +1,22 @@
+# Secretos
+.env
+*.env
+!.env.example
+
+# Dependencias y artefactos de compilación
+node_modules/
+vendor/
+build/
+target/
+
+# Volúmenes locales de datos
+pgdata/
+postgres_data/
+data/
+
+# IDE / SO
+.idea/
+.vscode/
+*.iml
+.DS_Store
+*.log
